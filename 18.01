@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//int age;
+	//cin >> age;
+	//if (age >= 0 && age <= 100) { cout << "ok"; }
+	//else cout << "wrong";
+	//string name;
+	//cin >> name;
+	//if (name == "jelizaveta" || name == "Jelizaveta") { cout << "ok"; }
+	//else cout << "wrong";
+	//int catage, dogage;
+	//cin >> catage >> dogage;
+	//if (catage >= 0 && catage <= 70) { cout << "Cat is pretty good"; }
+	//else cout << "Cat is too old"; 
+	//if (dogage >= 0 && dogage <= 50) { cout << "Dog is pretty good"; }
+	//else cout << "Dog is too old";
+	//int atzime, vecums, augums;
+	//cin >> atzime >> vecums >> augums;
+	//if (atzime >= 7 && atzime <= 10) { cout << "Wow, you are pretty goob in school!" << endl;}
+	//else cout << " You can do it better"<< endl;
+	//if (vecums >= 0 && vecums <= 18) { cout << "You just a baby!!!"<< endl; }
+	//else cout << "You are too old for this"<< endl;
+	//if (augums >= 100 && augums <= 160) { cout << "You are small"<< endl; }
+	//else cout << "You are tall"<< endl;
+	string secret_file = "I am ocelot enjoer";
+	string password = "OCELOT", p1;
+	cout << "--------" << endl;
+	cin >> p1;
+	if (p1 == password) {
+		cout << secret_file;
+	}
+	else cout << "Alert!!";
+}
