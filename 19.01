@@ -1,0 +1,85 @@
+#include <iostream>
+using namespace std;
+
+//int main() {
+	//int i = 0;
+	//do {i++;
+    //cout << i << " ";
+	//cout << i * i* i << endl;
+
+
+
+	//} while (i < 10);
+	//int i = 0;
+	//do {i++;
+	//cout << i << " ";
+	//cout << i * i << endl;
+
+
+
+	//} while (i < 20);
+	//string myname;
+	//do {
+		//cout << "Enter my name" << endl;
+		//cin >> myname;
+		//if (myname== "no") { cout << "yea!"; };
+	//} while (myname != "Heisenberg");
+
+	//return 0;
+	//int i=0;
+	//string password= "La-Li-Lu-Le-Lo", p1;
+	//do {
+		//i++;
+		//cout << "Enter the password"<< endl;
+        //cin >> password;
+		//if ("La-Li-Lu-Le-Lo" == password) {
+			//cout << " We are building the Metal Gear!!";}
+		//else cout << "Alert!Enemy on the base!!!";
+	//} while (password != "La-Li-Lu-Le-Lo");
+
+	//bool isNumver(string s){
+//for (int i = 0; i < s.length(); i++)
+			//if (isdigit(s[1]) == false)
+			//	return false;
+
+		//return true;
+//}
+	//int main() {
+	 
+		//string myname;
+	
+		//do {
+		//cout<< "Say my name" << endl;
+		//cin >> myname;
+
+		//if ("Heisenberg"==myname) { cout << "You're goddamn right!"; }
+		
+		//} while (myname != "Heisenberg");
+		//return 0;
+//}
+double loopFib(double number) {
+	double temp = 0, value1 = 0, value2 = 1;
+
+	if (number == 0) return value1;
+	if (number == 1) return value2;
+
+	for (int count = 2; count <= number; count++);
+	{
+		temp = value2;
+		value2 = value2+ value1;
+		value1 = temp;
+
+
+	}
+	return value2;
+}
+int main(void) {
+	double n = 10;
+	double looptotal = 0;
+	looptotal = loopFib(n);
+	cout << "looptotal=" << looptotal << endl;
+	cin.get();
+	return 0;
+
+
+}
