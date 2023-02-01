@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	//int sk1;
+	//cin >> sk1;
+	//if (sk1%2==0) { cout << "ok"; }
+	//else cout << "wrong";
+	//int sk1, sk2;
+	//cin >> sk1, sk2;
+	//if (sk1 >>sk2) { cout << "sk1 ir maksimals, sk2 minemals"; }
+	//else cout << "sk1 is minimals, sk2 maksimals";
+	//int sk1;
+	//cin >> sk1;
+	//if (sk1 >= 90) { cout << "Grade A"; }
+	//if (sk1 >= 80) { cout << "Grade B"; }
+	//if (sk1 >= 70) { cout << "Grade C"; }
+	//if (sk1 >= 60) { cout << "Grade D"; }
+	//if (sk1 >= 40) { cout << "Grade E"; }
+	//if (sk1 <= 40) { cout << "Grade F"; }
+	//else cout << "aAAaaAaAaAaAaaAaaa";
+
+	//int sk1,y2;
+	//cin >> sk1, y2;
+	//if (sk1 == 1) { cout << "pIRMDIENA"; }
+	///if (sk1 == 2) { cout << "otrdiena"; }
+	//if (sk1 == 3) { cout << "triesdiena"; }
+	//if (sk1 == 4) { cout << "ceturdiena"; }
+	//if (sk1 == 5) { cout << "piektdiena"; }
+	//if (y2 == 01) { cout << "janvaris"; }
+	//if (y2 == 02) { cout << "februaris"; }
+	//if (y2 == 03) { cout << "marts"; }
+	//if (y2 == 04) { cout << "aprilis"; }
+	//if (y2 == 05) { cout << "maijs"; }
+	//if (y2 == 06) { cout << "junijs"; }
+	//if (y2 == 07) { cout << "julijs"; }
+	//if (y2 == 8) { cout << "august"; }
+	//if (y2 == 9) { cout << "septembris"; }
+	//if (y2 == 10) { cout << "oktobris"; }
+	//if (y2 == 11) { cout << "novembris"; }
+	//if (y2 == 12) { cout << "decembris"; }
+	//else cout << "aAAaaAaAaAaAaaAaaa";
+
+}
