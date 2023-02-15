@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+//int i = 0;
+	//do {i++;
+	//cout << i << " ";
+	//cout << i * 3 << endl;
+
+
+
+	//} while (i!= 125);
+	
+	//int i = 20;
+	//do { i--;
+	//cout << i << " ";
+	//cout << i / i / i << endl;
+	
+	//} while (i != 1);
+
+	//double i = 1/1;
+	//do {
+	//	i--;
+	//	cout << i << " ";
+	//	cout << i /10 << endl;
+
+	//} while (i != 1 / 1000);
+
+	//cout << " "  " "  "      *" " " << endl;
+	//cout <<" " "      ***" " " << endl;
+	//cout << " " "     *****" << endl;
+	//cout << " " "    *******" << endl;
+	//cout << "    *********" << endl;
+	//cout << "   ***********" << endl;
+	//cout << "  *************" << endl;
+	//cout << " ***************" << endl;;
+	//cout << " " "     *****" << endl;
+	//cout << " " "    *******" << endl;
+	//cout << "    *********" << endl;
+	//cout << "   ***********" << endl;
+	//cout << "  *************" << endl;
+	//cout << " ***************" << endl;
+	//cout << " " "    *******" << endl;
+	//cout << " " "   *********" << endl;
+	//cout << "   ***********" << endl;
+	//cout << "  *************" << endl;
+	//cout << " ***************" << endl;
+	//cout << "*****************" << endl;
+	//cout << " " "     *****" << endl;
+	//cout << " " "     *****" << endl;
+	//int i=0;
+	//string password= "The patriots", p1;
+	//do {
+	//	i++;
+	//	cout << "Enter the password"<< endl;
+	//	cin >> password;
+	//	if ("The patriots" == password) {cout << " Who has The Legacy?!";}
+	//	else cout << "Alert!Enemy on the base!!!";
+//	} while (password != "The patriots");
+	
+}
+	
