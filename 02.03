@@ -1,0 +1,26 @@
+-- create
+CREATE TABLE WEATHER (
+  numurs INTEGER PRIMARY KEY,
+  diena TEXT NOT NULL,
+  date TEXT NOT NULL,
+  laikap TEXT NOT NULL,
+  temp TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO WEATHER VALUES (0001,'Cet', '02/03','makoni', +4);
+INSERT INTO WEATHER VALUES (0002,'Piekt', '03/03','makoni', +4);
+INSERT INTO WEATHER VALUES (0003,'Sestd.', '04/03','sniegs', +1);
+INSERT INTO WEATHER VALUES (0004,'Svetd', '05/03','sniegs', 0);
+INSERT INTO WEATHER VALUES (0005,'Pirmd', '06/03','sniegs', -1);
+INSERT INTO WEATHER VALUES (0006,'Otrd', '07/03','sniegs', -2);
+INSERT INTO WEATHER VALUES (0007,'Tresd', '09/03', 'sniegs', -1);
+-- fetch 
+SELECT * FROM WEATHER ;
+SELECT * FROM WEATHER where temp > 0;
+SELECT * FROM WEATHER where diena = 'Otrd' and laikap='sniegs';
+SELECT sum(temp) FROM WEATHER;
+SELECT * FROM WEATHER where laikap='sniegs';
+SELECT MIN(temp) FROM WEATHER;
+SELECT MAX(temp) FROM WEATHER;
+delete from WEATHER where laikap='makoni';
